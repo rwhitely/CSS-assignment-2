@@ -11,7 +11,7 @@ header {
 	top: 0px;
 	left: 0px;
 	background: #333;
-	width: 100%;
+	width: 100%
 }
 
 h1 {
@@ -41,51 +41,73 @@ nav ul li a {
 	padding-top: 1em;
 }
 
-h2 {
-	text-align: center;
-}
-
 section {
 	color: #000;
-	text-align: center;
+	text-align: left;
+	width: 100%;
 }
 
 article {
-	width: 800px;
-	background: #fff;
-	text-align: left;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 7px;
+	padding: 2%;
+	margin: 0 2%;
+	float: right;
+	width: 40%;
 }
 
-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+#cougarheader {
+	padding: 2%;
+	margin: 0 2%;
+	float: left;
+	width: 40%;
+	background: #B26219;
+}
+
+#lionheader {
+	padding: 2%;
+	margin: 0 2%;
+	float: left;
+	width: 40%;
+	background: #FFBA68;
+}
+
+#tigerheader {
+	padding: 2%;
+	margin: 0 2%;
+	float: left;
+	width: 40%;
+	background: #FFBD82;
 }
 
 #cougar {
+	margin-top: 1em;
 	background: #B26219;
-	margin-top: 100px;
+	width: 100%;
+	clear: both;
+	padding: 1em;
+	height: 800px;
 }
-
 
 #lion {
 	background: #FFBA68;	
+	width: 100%;
+	clear: none;
+	padding: 1em;
+	height: 800px;
 }
 
 #tiger {
 	background: #FFBD82;
+	width: 100%;
+	clear: none;
+	padding: 1em;
+	height: 800px
 }
 
 footer {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 	text-align: center;
 	padding: 5px;
-	width: 500px;
+	float: bottom;
+	clear: both;
 }
 
 /* ----- suggested colors -----
